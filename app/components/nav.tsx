@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import { ThemeSwitch } from "./theme-switch";
 const navItems = {
   '/': {
     name: 'home',
@@ -33,7 +33,11 @@ export function Navbar() {
               )
             })}
           </div>
+          <div className="flex justify-end items-center absolute right-0 top-4">
+          <ThemeSwitch />
+        </div>
         </nav>
+        
       </div>
     </aside>
   )
