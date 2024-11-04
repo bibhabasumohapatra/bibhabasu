@@ -68,7 +68,7 @@ export const ThemeSwitch: React.FC = () => {
 
   if (!mounted) {
     return (
-      <FiSun
+      <FiMoon
         className="h-[14px] w-[14px] text-black"
         aria-hidden="true"
       />
@@ -83,11 +83,11 @@ export const ThemeSwitch: React.FC = () => {
       className="flex items-center justify-center"
     >
       {currentTheme === "dark" ? (
-        <FiSun
-          className="h-[14px] w-[14px] text-black"
+        <FiMoon
+          className="h-[14px] w-[14px] text-white"
         />
       ) : (
-        <FiMoon
+        <FiSun
           className="h-[14px] w-[14px] text-black"
         />
       )}

@@ -17,6 +17,12 @@
   --sh-entity: #e25a1c;
 }
 
+/* Dark theme colors */
+.dark, [data-theme='dark'] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --sh-class: #4c97f8;
@@ -84,7 +90,7 @@ html {
 }
 
 .prose p {
-  @apply my-4 text-neutral-800 dark:text-neutral-200;
+  @apply my-2 mx-2 font-normal;
 }
 
 .prose h1 {
