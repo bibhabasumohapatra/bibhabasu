@@ -7,7 +7,7 @@ const navItems = {
   '/youtube': {
     name: 'youtube',
   },
-  '/https://bibhabasumohapatra.github.io/': {
+  'https://bibhabasumohapatra.github.io/': {
     name: 'blog',
   },
 }
